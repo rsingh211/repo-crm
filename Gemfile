@@ -16,6 +16,9 @@ gem "turbo-rails"
 gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+gem 'devise'         # For authentication
+gem 'activeadmin'    # Admin panel
+gem 'image_processing', '~> 1.2'  # Needed for ActiveStorage
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
