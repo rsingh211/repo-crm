@@ -1,0 +1,11 @@
+<div class="card">
+  <div class="card-content">
+    <% if customer.image.attached? %>
+      <%= image_tag customer.image, class: "customer-image" %>
+    <% end %>
+    <p><strong>Name:</strong> <%= customer.full_name %></p>
+    <p><strong>Phone:</strong> <%= customer.phone_number %></p>
+    <p><strong>Email:</strong> <%= customer.email.presence || "N/A" %></p>
+    <p><strong>Notes:</strong> <%= customer.notes %></p>
+  </div>
+</div>
